@@ -1,0 +1,17 @@
+Till now, we have only one file inside this directory i.e., tut69.js. But as 
+soon as we write npm init on the terminal, it asks several questions like the 
+package name, version, description, entry point, keyword, author, etc. When we 
+execute this, there is a new file called package.json inside the tut69 directory.
+NPM init has initialized this folder in terms of a node package. Now when we 
+install any other dependency, it automatically gets added to this package. For 
+example, if we write npm install slugify, the package.json file will automatically 
+get updated. In the same way, we can install or uninstall any of the packages 
+from the directory. Besides all these things, we also get another folder called 
+node.modules. It is a folder containing all the modules related to our project. 
+If by mistake this folder gets deleted, we can recover it back by again installing 
+npm by writing npm install. If we want to install any specific version of the 
+dependency, we can easily do that. For example, if want to install version 1.3.5 
+of slugify, we have to write as npm install slugify@1.3.5. As soon as write this, 
+the version gets updated.
+
+slugify 1.3.5//major version.minor version small functions added.patch bug fixes
